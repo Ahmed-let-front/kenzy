@@ -733,7 +733,7 @@ body {
     font-size: 15px;
   }
   .envelope {
-    top: 520px;
+    top: 50vh;
     left: 45%;
     border: 11px solid;
     border-color: #ff4c7d #ffb6c1 #ff4c7d #ffb6c1;
@@ -744,7 +744,7 @@ body {
     font-size: 20px;
   }
   .envelope {
-    top: 520px;
+    top: 50vh;
     left: 44%;
   }
 }
@@ -753,7 +753,7 @@ body {
     font-size: 25px;
   }
   .envelope {
-    top: 520px;
+    top: 50vh;
     left: 44%;
   }
 }
@@ -763,7 +763,7 @@ body {
     font-size: 50px;
   }
   .envelope {
-    top: 520px;
+    top: 50vh;
     left: 42.5%;
     width: 55px;
     border: 20px solid;
@@ -777,7 +777,7 @@ body {
     font-size: 70px;
   }
   .envelope {
-    top: 52vh;
+    top: 50vh;
     left: 42.5%;
     width: 70px;
     height: 50px;
@@ -792,7 +792,7 @@ body {
     font-size: 80px;
   }
   .envelope {
-    top: 52vh;
+    top: 50vh;
     left: 45.5%;
     width: 70px;
     height: 50px;
@@ -807,7 +807,7 @@ body {
     font-size: 100px;
   }
   .envelope {
-    top: 52vh;
+    top: 50vh;
     left: 42.5%;
     width: 70px;
     height: 50px;
@@ -820,7 +820,7 @@ body {
     font-size: 300px;
   }
   .envelope {
-    top: 52vh;
+    top: 50vh;
     left: 41.5%;
     width: 150px;
     height: 50px;
