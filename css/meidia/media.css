@@ -15,6 +15,7 @@
     font-size: 20px;
   }
   .envelope {
+    top: 520px;
     left: 44%;
   }
 }
@@ -23,6 +24,7 @@
     font-size: 25px;
   }
   .envelope {
+    top: 520px;
     left: 44%;
   }
 }
