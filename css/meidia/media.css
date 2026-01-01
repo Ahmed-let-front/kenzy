@@ -11,20 +11,20 @@
   }
 }
 @media (min-width: 375px) and (max-width: 424px) {
-    h1 {
-        font-size: 20px;
-    }
-    .envelope {
-        left: 44%;
-    }
+  h1 {
+    font-size: 20px;
+  }
+  .envelope {
+    left: 44%;
+  }
 }
 @media (min-width: 425px) and (max-width: 480px) {
-    h1 {
-        font-size: 25px;
-    }
-    .envelope {
-        left: 44%;
-    }
+  h1 {
+    font-size: 25px;
+  }
+  .envelope {
+    left: 44%;
+  }
 }
 /* موبايل كبير */
 @media (min-width: 481px) and (max-width: 768px) {
@@ -61,8 +61,8 @@
     font-size: 80px;
   }
   .envelope {
-    top: 520px;
-    left: 42.5%;
+    top: 350px;
+    left: 45.5%;
     width: 70px;
     height: 50px;
     border: 30px solid;
@@ -76,7 +76,7 @@
     font-size: 100px;
   }
   .envelope {
-    top: 520px;
+    top: 400px;
     left: 42.5%;
     width: 70px;
     height: 50px;
@@ -89,7 +89,7 @@
     font-size: 300px;
   }
   .envelope {
-    top: 960px;
+    top: px;
     left: 41.5%;
     width: 150px;
     height: 50px;

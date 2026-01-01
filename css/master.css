@@ -2,7 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: "Rubik Gemstones", system-ui;
 }
 
 body {
@@ -24,6 +23,7 @@ body {
   -webkit-background-clip: text;
   letter-spacing: 5px;
   white-space: pre-wrap;
+  font-family: "Rubik Gemstones", system-ui;
   color: transparent;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
