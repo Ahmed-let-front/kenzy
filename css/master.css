@@ -727,3 +727,108 @@ body {
     opacity: 0;
   }
 }
+/* موبايل */
+@media (min-width: 310px) and (max-width: 480px) {
+  h1 {
+    font-size: 15px;
+  }
+  .envelope {
+    top: 520px;
+    left: 45%;
+    border: 11px solid;
+    border-color: #ff4c7d #ffb6c1 #ff4c7d #ffb6c1;
+  }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  h1 {
+    font-size: 20px;
+  }
+  .envelope {
+    top: 520px;
+    left: 44%;
+  }
+}
+@media (min-width: 425px) and (max-width: 480px) {
+  h1 {
+    font-size: 25px;
+  }
+  .envelope {
+    top: 520px;
+    left: 44%;
+  }
+}
+/* موبايل كبير */
+@media (min-width: 481px) and (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+  .envelope {
+    top: 520px;
+    left: 42.5%;
+    width: 55px;
+    border: 20px solid;
+    border-color: #ff4c7d #ffb6c1 #ff4c7d #ffb6c1;
+  }
+}
+
+/* تابلت */
+@media (min-width: 770px) and (max-width: 1024px) {
+  h1 {
+    font-size: 70px;
+  }
+  .envelope {
+    top: 520px;
+    left: 42.5%;
+    width: 70px;
+    height: 50px;
+    border: 30px solid;
+    border-color: #ff4c7d #ffb6c1 #ff4c7d #ffb6c1;
+  }
+}
+
+/* لابتوب */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  h1 {
+    font-size: 80px;
+  }
+  .envelope {
+    top: 350px;
+    left: 45.5%;
+    width: 70px;
+    height: 50px;
+    border: 30px solid;
+    border-color: #ff4c7d #ffb6c1 #ff4c7d #ffb6c1;
+  }
+}
+
+/* ديسكتوب */
+@media (min-width: 1440px) and (max-width: 2000px) {
+  h1 {
+    font-size: 100px;
+  }
+  .envelope {
+    top: 400px;
+    left: 42.5%;
+    width: 70px;
+    height: 50px;
+    border: 30px solid;
+    border-color: #ff4c7d #ffb6c1 #ff4c7d #ffb6c1;
+  }
+}
+@media (min-width: 2001px) {
+  h1 {
+    font-size: 300px;
+  }
+  .envelope {
+    top: px;
+    left: 41.5%;
+    width: 150px;
+    height: 50px;
+    border: 60px solid;
+    border-color: #ff4c7d #ffb6c1 #ff4c7d #ffb6c1;
+  }
+  .popup {
+    width: 400px;
+    height: 500px;
+  }
+}
