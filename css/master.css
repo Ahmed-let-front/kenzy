@@ -727,62 +727,61 @@ body {
     opacity: 0;
   }
 }
-
-/* Small Phones: 375px - 424px */
-@media (min-width: 375px) and (max-width: 424px) {
+@media (min-width: 319px) and (max-width: 374px) {
+  h1 {
+    font-size: 15px;
+  }
+  .envelope {
+    top: 277px;
+    left: 44.5%;
+    width: 25px;
+  }
+  .popup {
+    width: 200px;
+    height: 150px;
+  }
+}
+@media (min-width: 374px) and (max-width: 424px) {
   h1 {
     font-size: 20px;
   }
   .envelope {
-    top: 270px;
+    top: 277px;
     left: 43.5%;
-    width: 28px;
-    height: 20px;
-    border: 10px solid;
-  }
-  .popup {
-    width: 200px;
-    height: 160px;
+    width: 25px;
   }
 }
-
-/* Medium Phones: 425px - 767px */
 @media (min-width: 425px) and (max-width: 767px) {
   h1 {
     font-size: 24px;
   }
   .envelope {
-    top: 280px;
+    top: 277px;
     left: 43%;
-    width: 30px;
-    height: 22px;
-    border: 12px solid;
+    width: 25px;
   }
   .popup {
-    width: 220px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
   }
 }
-
-/* Tablets: 768px - 1023px */
 @media (min-width: 768px) and (max-width: 1023px) {
   h1 {
     font-size: 50px;
   }
   .envelope {
-    top: 300px;
+    top: 277px;
     left: 42%;
     width: 50px;
     height: 40px;
     border: 20px solid;
+    border-color: #ff4c7d #ffb6c1 #ff4c7d #ffb6c1;
   }
   .popup {
     width: 300px;
     height: 250px;
   }
 }
-
-/* Small Laptops: 1024px - 1439px */
 @media (min-width: 1024px) and (max-width: 1439px) {
   h1 {
     font-size: 70px;
@@ -793,15 +792,34 @@ body {
     width: 60px;
     height: 35px;
     border: 20px solid;
+    border-color: #ff4c7d #ffb6c1 #ff4c7d #ffb6c1;
   }
   .popup {
     width: 400px;
     height: 300px;
   }
 }
-
-/* Large Screens: 1440px - 2560px */
-@media (min-width: 1440px) and (max-width: 2560px) {
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 70px;
+  }
+  .envelope {
+    top: 550px;
+    left: 44%;
+    width: 143px;
+    height: 73px;
+    border: 40px solid;
+    border-color: #ff4c7d #ffb6c1 #ff4c7d #ffb6c1;
+  }
+  .white-ball > * {
+    box-shadow: 0 0 10px 3px white;
+  }
+  .popup {
+    width: 800px;
+    height: 800px;
+  }
+}
+@media (min-width: 1450px) and (max-width: 2560px) {
   h1 {
     font-size: 160px;
   }
@@ -811,30 +829,10 @@ body {
     width: 60px;
     height: 35px;
     border: 40px solid;
+    border-color: #ff4c7d #ffb6c1 #ff4c7d #ffb6c1;
   }
-  .popup {
+  textarea {
     width: 700px;
     height: 700px;
-  }
-  .white-ball > * {
-    box-shadow: 0 0 10px 3px white;
-  }
-}
-
-/* Extra Large Screens > 2560px */
-@media (min-width: 2561px) {
-  h1 {
-    font-size: 200px;
-  }
-  .envelope {
-    top: 400px;
-    left: 42%;
-    width: 80px;
-    height: 50px;
-    border: 50px solid;
-  }
-  .popup {
-    width: 900px;
-    height: 900px;
   }
 }
