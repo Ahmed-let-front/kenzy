@@ -777,7 +777,7 @@ body {
     font-size: 70px;
   }
   .envelope {
-    top: 520px;
+    top: 52vh;
     left: 42.5%;
     width: 70px;
     height: 50px;
@@ -792,7 +792,7 @@ body {
     font-size: 80px;
   }
   .envelope {
-    top: 350px;
+    top: 52vh;
     left: 45.5%;
     width: 70px;
     height: 50px;
@@ -807,7 +807,7 @@ body {
     font-size: 100px;
   }
   .envelope {
-    top: 400px;
+    top: 52vh;
     left: 42.5%;
     width: 70px;
     height: 50px;
@@ -820,7 +820,7 @@ body {
     font-size: 300px;
   }
   .envelope {
-    top: px;
+    top: 52vh;
     left: 41.5%;
     width: 150px;
     height: 50px;
